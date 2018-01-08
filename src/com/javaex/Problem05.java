@@ -19,17 +19,17 @@ public class Problem05 {
 			
 			if(count==0){
 				lotto[0]=lottonum;
-				System.out.println(lotto[0]);
+				System.out.println("1번째 숫자 : " + lotto[0]);
 				count++;
 			}else{
 				for(int i = 0; i<count; i++){
 					if(lotto[i]==lottonum){
-						System.out.println(lottonum + "중복 되어 다시 뽑겠습니다.");
+						System.out.println("중복 되어 다시 뽑겠습니다. 뽑힌숫자 : " + lottonum);
 						continue first;
 					}
 				}
 				lotto[count]=lottonum;
-				System.out.println(lotto[count]);
+				System.out.println(count+1 +"번째 숫자 : " + lotto[count]);
 				count++;
 			}
 		}
