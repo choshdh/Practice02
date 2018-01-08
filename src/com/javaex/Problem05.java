@@ -24,7 +24,7 @@ public class Problem05 {
 			}else{
 				for(int i = 0; i<count; i++){
 					if(lotto[i]==lottonum){
-						System.out.println(lottonum + "중복 되었습니다.");
+						System.out.println(lottonum + "중복 되어 다시 뽑겠습니다.");
 						continue first;
 					}
 				}
