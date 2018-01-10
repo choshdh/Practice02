@@ -54,6 +54,8 @@ public class Problem04 {
 			}
 		}
 		
+		sc.close();
+		
 	}
 
 }

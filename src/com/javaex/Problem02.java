@@ -32,6 +32,8 @@ public class Problem02 {
 		}
 
 		System.out.println("평균은 : " + total/num.length);
+		
+		sc.close();
 	}
 
 }
